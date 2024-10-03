@@ -1,6 +1,11 @@
 /***** 
 COLOR CHEAT SHEET 
-
+https://coolors.co/palette/cdb4db-ffc8dd-ffafcc-bde0fe-a2d2ff
+cdb4db -light purple
+ffc8dd -light pink
+ffafcc -dark pink
+bde0fe -sky blue
+a2d2ff -robins egg blue
 
 *****/
 
@@ -9,9 +14,11 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
+    font-family: "Montserrat", system-ui;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Nerko One", cursive;
 
 }
