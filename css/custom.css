@@ -18,7 +18,92 @@ body, p {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Nerko One", cursive;
 
+}
+/********************/
+/******* HERO ******/
+/********************/
+
+header.masthead {
+    background: url("../img/bear.jpg");
+    background-position:  center;
+    background-size: cover;
+}
+header.masthead h1 {
+    color: #ffafcc;
+    text-shadow: 
+        -1px -1px 0px black,  
+        1px -1px 0px black,
+        -1px 1px 0px black,
+        1px 1px 0px black;
+    font-size: 100px;
+}
+
+header.masthead p {
+    color: #ffc8dd;
+    text-shadow: 2px 2px 5px #a2d2ff;
+    font-size: 30px;
+}
+/********************/
+/******* COLORS ******/
+/********************/
+.btn-primary {
+    background: #ffc8dd
+}
+.btn-primary:hover{
+    background: #ffafcc;
+    border: 2px solid #bde0fe; 
+    font-weight:800;
+}
+hr.divider {
+    background-color: #bde0fe;
+    opacity: 1;
+}
+
+.bg-primary {
+    background-color:#cdb4db !important;
+    transition: background-color 0.2s ease;
+
+}
+.text-primary{
+    color:#f62676 !important;
+}
+.carousel-caption {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    color: #57b4df;
+ 
+}
+.bg-dark{
+    background-color: #cdb4db !important;
+}
+
+.text-white {
+    color: black !important;
+}
+
+/********************/
+/******* NAV ******/
+/********************/
+
+#mainNav.navbar-shrink {
+    background-color:#cdb4db;
+}
+
+
+#mainNav .navbar-brand {
+    color: #f62676 ;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav.navbar-shrink .navbar-brand:hover {
+	color: #e814a1 !important;
+}
+
+/********************/
+/******* TOP 6 ******/
+/********************/
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #bde0feca;
 }
